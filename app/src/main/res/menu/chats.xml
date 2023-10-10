@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/action_unmute_chats"
+        android:icon="@drawable/outline_volume_up_24"
+        android:title="Unmute"
+        app:iconTint="@color/white"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/action_mute_chats"
+        android:icon="@drawable/outline_volume_off_24"
+        android:title="Mute"
+        app:iconTint="@color/white"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/action_delete_chats"
+        android:icon="@drawable/outline_delete_24"
+        android:title="Delete"
+        app:iconTint="@color/white"
+        app:showAsAction="always" />
+</menu>

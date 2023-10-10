@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Theme.Ayoba" parent="Theme.MaterialComponents.Light.DarkActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/primary_normal</item>
+        <item name="colorPrimaryVariant">@color/primary_darker</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/secondary_normal</item>
+        <item name="colorSecondaryVariant">@color/secondary_darker</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
+        <!-- Customize your theme here. -->
+        <item name="textInputStyle">@style/AyobaTextInput</item>
+        <item name="materialButtonStyle">@style/AyobaButton</item>
+    </style>
+
+    <style name="CircleImageView" parent="">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">50%</item>
+    </style>
+
+    <style name="AyobaTextInput" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+        <item name="shapeAppearance">@style/RoundTextInput</item>
+    </style>
+
+    <style name="RoundTextInput" parent="">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">@dimen/_500sdp</item>
+    </style>
+
+    <style name="AyobaButton" parent="Widget.MaterialComponents.Button">
+        <item name="shapeAppearance">@style/RoundButton</item>
+        <item name="android:insetTop">0dp</item>
+        <item name="android:insetBottom">0dp</item>
+    </style>
+
+    <style name="RoundButton" parent="">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">@dimen/_500sdp</item>
+    </style>
+</resources>
